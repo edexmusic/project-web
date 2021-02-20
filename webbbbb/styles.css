@@ -1050,7 +1050,7 @@ footer ul li {
         font-size: 18px;
     }
     #intro__section {
-        height: 50vh;
+        height: 100vh;
     }
     .header {
         height: 100px;
@@ -1067,9 +1067,13 @@ footer ul li {
         margin-top: 10px;
     }
     #intro__section .image img {
-        height: 545px;
-        width: 1075px;
-        padding-left: 300px;
+        height: 100%;
+        width: 100%;
+    }
+    .image {
+        height: 50%;
+        width: 100%;
+        position: absolute;
     }
     #about__section .container {
         display: flex;
@@ -1112,15 +1116,56 @@ footer ul li {
         margin-left: 50px;
     }
     .info__box {
-        height: 15vh;
+        height: 20vh;
         top: 0;
-        margin-top: 35vh;
+        margin-top: 80vh;
+        width: 100%;
+    }
+    .infobox__content {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .infobox__content h2 {
+        width: 400px;
+        font-size: 36px;
+        margin: 0 auto;
+    }
+    .infobox__content p {
+        font-size: 26px;
+        text-align: center;
     }
     .header {
         z-index: 8;
     }
     .intro__content {
         z-index: 5;
+        top: 430px;
+        text-align: center;
+        background-color: #2e2e2e94;
+        background-blend-mode: saturation;
+        padding: 50px 0;
+    }
+    .intro__content h1 {
+        font-size: 104px;
+        margin: 0 auto;
+        width: 700px;
+    }
+    .intro__content p {
+        font-size: 30px;
+    }
+    .intro__content .learnmore {
+        font-size: 32px;
+        background-color: #2E2E2E;
+        border: 1px solid #DB883A;
+        padding: 15px 40px 20px 40px;
+        border-radius: 100px;
+        line-height: 100px;
+        text-decoration: none;
+    }
+    .intro__content .learnmore:focus, .learnmore:active, .learnmore:hover {
+        color: #2E2E2E;
+        background-color: #DB883A;
+        text-decoration: none;
     }
     .boxes {
         height: 320px;
@@ -1368,7 +1413,7 @@ footer ul li {
         font-size: 18px;
     }
     #intro__section {
-        height: 60vh;
+        height: 100vh;
     }
     #intro__section .image img {
         height: 465px;
@@ -1376,8 +1421,8 @@ footer ul li {
         padding-left: 300px;
     }
     #about__section .container {
-            display: flex;
-            flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     .about__img img {
         height: 400px;
@@ -1414,7 +1459,7 @@ footer ul li {
     .info__box {
         height: 20vh;
         top: 0;
-        margin-top: 40vh;
+        margin-top: 80vh;
     }
     .header {
         z-index: 8;
