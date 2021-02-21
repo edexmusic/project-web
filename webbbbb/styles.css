@@ -1099,20 +1099,22 @@ footer ul li {
     .about__content h2 {
         width: 600px;
         margin-left: 0;
+        font-size: 28px;
     }
     .about__content p {
-        font-size: 18px;
-        width: 120%;
-        margin-left: 30px;
+        font-size: 22px;
+        width: 700px;
+        margin-left: 0px;
         text-align: left;
     }
     .about__content {
         margin-top: 80px;
-        margin-left: 100px;
+        margin-left: 80px;
+        width: 800px;
     }
     .about__content a {
-        line-height: 40px;
-        font-size: 20px;
+        line-height: 50px;
+        font-size: 26px;
         margin-left: 50px;
     }
     .info__box {
@@ -1159,7 +1161,7 @@ footer ul li {
         border: 1px solid #DB883A;
         padding: 15px 40px 20px 40px;
         border-radius: 100px;
-        line-height: 100px;
+        line-height: 140px;
         text-decoration: none;
     }
     .intro__content .learnmore:focus, .learnmore:active, .learnmore:hover {
@@ -1212,27 +1214,27 @@ footer ul li {
         padding-top: 80px;
     }
     .works__info h2 {
-        font-size: 42px;
-        margin-left: 100px;
+        font-size: 56px;
+        margin-left: 80px;
     }
     .works__info p {
-        width: 110%;
-        margin-left: 130px;
-        font-size: 18px;
+        width: 700px;
+        margin-left: 80px;
+        font-size: 22px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .works__info a {
-        font-size: 22px;
-        line-height: 70px;
-        margin-left: 150px;
+        font-size: 26px;
+        line-height: 65px;
+        margin-left: 120px;
     }
     .slideshow {
         padding: 0;
-        margin-top: 500px;
+        margin-top: 540px;
         right: auto;
         max-width: 700px;
-        margin-left: 55px;
+        margin-left: 60px;
     }
     .slideshow-container {
         max-width: 700px;
@@ -1316,10 +1318,13 @@ footer ul li {
     .menu__contacts {
         width: 800px;
     }
+    .line {
+        margin-top: 120px;
+    }
 }
 @media screen and (max-width: 800px){
     .container {
-        width: 600px;
+        width: 675px;
     }
     .intro__content .learnmore {
         font-size: 22px;
@@ -1416,9 +1421,8 @@ footer ul li {
         height: 100vh;
     }
     #intro__section .image img {
-        height: 465px;
-        width: 925px;
-        padding-left: 300px;
+        height: 50%px;
+        width: 100%px;
     }
     #about__section .container {
         display: flex;
@@ -1434,38 +1438,41 @@ footer ul li {
         font-size: 64px;
     }
     .line {
-        width: 100px;
+        width: 80px;
         margin-top: 110px;
     }
     .about__content h2 {
         width: 600px;
-        margin-left: -65px;
     }
     .about__content p {
-        font-size: 18px;
-        width: 110%;
-        margin-left: -20px;
+        font-size: 22px;
+        width: 612px;
         text-align: left;
     }
     .about__content {
-        margin-top: 100px;
-        margin-left: 100px;
+        margin-top: 70px;
+        margin-left: 50px;
+        width: 500px;
     }
     .about__content a {
-        line-height: 40px;
-        font-size: 20px;
-        margin-left: 10px;
+        line-height: 25px;
+        font-size: 26px;
+        margin: 0;
     }
     .info__box {
         height: 20vh;
         top: 0;
         margin-top: 80vh;
     }
+    .about__img {
+        padding-top: 120px;
+    }
     .header {
         z-index: 8;
     }
     .intro__content {
         z-index: 5;
+        top: 350px;
     }
     .boxes {
         height: 280px;
@@ -1499,9 +1506,12 @@ footer ul li {
     .works__content {
         flex-direction: column;
     }
+    .intro__content h1 {
+        width: 500px;
+    }
     .works__info p {
-        margin-left: 80px;
-        width: 100%;
+        margin-left: 50px;
+        width: 600px;
     }
     .blog__title a {
         font-size: 22px;
@@ -1517,20 +1527,23 @@ footer ul li {
     }
     .works__info h2 {
         font-size: 42px;
-        margin-left: 36px;
+        margin-left: 50px;
     }
     .works__info p {
         margin-top: 10px;
         margin-bottom: 0;
     }
     .works__info a {
-        font-size: 20px;
-        line-height: 80px;
-        margin-left: 110px;
+        font-size: 26px;
+        line-height: 50px;
+        margin-left: 50px;
+    }
+    .blog__title {
+        padding: 50px 0;
     }
     .slideshow {
         padding: 0;
-        margin-top: 520px;
+        margin-top: 550px;
         right: 80px;
         max-width: 600px;
     }
@@ -1544,7 +1557,7 @@ footer ul li {
         max-width: 600px;
     }
     #blogs__section {
-        height: 180vh;
+        height: 165vh;
     }
     .footer__list {
         display: none;
