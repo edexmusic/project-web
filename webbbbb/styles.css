@@ -1641,14 +1641,14 @@ footer ul li {
         height: 80vh;
     }
     .menu__navigation {
-        width: 520px;
+        width: 100%;
     }
     .phone {
         height: 75px ;
         width: 160px;
     }
     .menu__contacts {
-        margin-top: 100px;
+        margin-top: 30px;
     }
     .menu__option .option {
         font-size: 26px;
@@ -1664,6 +1664,12 @@ footer ul li {
     .email h5 {
         font-size: 14px;
     }
+    .menu__logo {
+        width: 100px;
+    }
+    .menu__box .menu__logo a img {
+        height: 30px;
+    }
     .showroom {
         height: 75px ;
         width: 160px;
@@ -1672,7 +1678,7 @@ footer ul li {
         font-size: 14px;
     }
     .menu__socials {
-        width: 275px;
+        width: 100%;
     }
     .menu__socials p {
         font-size: 18px;
@@ -1699,7 +1705,7 @@ footer ul li {
         font-size: 14px;
     }
     .menu__contacts {
-        width: 100px;
+        width: 100%;
     }
     .blogcard img {
         width: 278px;
@@ -1723,7 +1729,7 @@ footer ul li {
         font-size: 16px;
     }
     #intro__section {
-        height: 100vh;
+        min-height: 100vh;
     }
     #intro__section .image img {
         height: 50%;
