@@ -1613,6 +1613,7 @@ footer ul li {
     }
     .blogs {
         flex-direction: column;
+        height: 225vh;
     }
     #about__section {
         height: 125vh;
@@ -1838,9 +1839,9 @@ footer ul li {
         font-size: 18px;
     }
     .info__box {
-        height: 30vh;
+        height: 25vh;
         top: 0;
-        margin-top: 70vh;
+        margin-top: 75vh;
     }
 
     .header {
@@ -1927,7 +1928,7 @@ footer ul li {
         max-width: 340px;
     }
     #blogs__section {
-        height: 260vh;
+        height: 250vh;
     }
     .footer__list {
         display: none;
