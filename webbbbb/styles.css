@@ -901,7 +901,6 @@ footer ul li {
     }
     .intro__content {
         z-index: 5;
-        padding-top: 260px;
     }
     .intro__content p {
         font-size: 18px;
@@ -1147,7 +1146,6 @@ footer ul li {
     }
     .intro__content {
         z-index: 5;
-        top: 430px;
         text-align: center;
         background-color: #2e2e2e94;
         background-blend-mode: saturation;
@@ -1327,10 +1325,22 @@ footer ul li {
     .line {
         margin-top: 120px;
     }
+    .intro {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 800px){
     .container {
         width: 675px;
+    }
+    .intro {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .intro__content .learnmore {
         font-size: 22px;
@@ -1488,7 +1498,6 @@ footer ul li {
     }
     .intro__content {
         z-index: 5;
-        top: 350px;
     }
     .boxes {
         height: 280px;
@@ -1615,7 +1624,6 @@ footer ul li {
     .intro__content {
         width: 300px;
         margin: 0 auto;
-        top: 25vh;
         height: 60vh;
         display: flex;
         flex-direction: column;
@@ -1644,24 +1652,36 @@ footer ul li {
         width: 100%;
     }
     .phone {
-        height: 75px ;
-        width: 160px;
+        height: 55px ;
+        width: 100px;
     }
     .menu__contacts {
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .menu__option .option {
-        font-size: 26px;
+        font-size: 32px;
         line-height: 68px;
     }
     .phone h5 {
-        font-size: 14px;
+        font-size: 10px;
+    }
+    .phone p {
+        font-size: 13px;
     }
     .email {
-        height: 75px ;
-        width: 160px;
+        height: 55px ;
+        width: 100px;
     }
     .email h5 {
+        font-size: 10px;
+    }
+    .intro {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .email p {
         font-size: 14px;
     }
     .menu__logo {
@@ -1671,14 +1691,19 @@ footer ul li {
         height: 30px;
     }
     .showroom {
-        height: 75px ;
-        width: 160px;
+        height: 55px ;
+        width: 100px;
+        margin-top: -60px;
     }
     .showroom h5 {
-        font-size: 14px;
+        font-size: 10px;
+    }
+    .showroom p {
+        font-size: 13px;
     }
     .menu__socials {
-        width: 100%;
+        width: 40%;
+        padding: 0;
     }
     .menu__socials p {
         font-size: 18px;
@@ -1688,21 +1713,45 @@ footer ul li {
         margin-left: 0px;
     }
     .menu__contactsinfo {
-        width: 320px;
+        width: 230px;
         height: 300px;
         margin: 0;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
     .blog__title h2 {
         font-size: 42px;
     }
+    .menu__nav {
+        height: 100vh;
+    }
+    .menu__socials a {
+        margin-right: 15px;
+    }
+    .menu__socials {
+        margin-top: 180px;
+    }
+    .menu__socials a {
+        width: 100%;
+        font-size: 16px;
+    }
+    .menu__socials p {
+        width: 100%;
+        font-size: 12px;
+    }
+    .menu__socials p span a {
+        font-size: 12px;
+    }
     .headquarter {
-        height: 75px ;
-        width: 160px;
+        height: 55px ;
+        width: 100px;
+        margin-top: -60px;
     }
     .headquarter h5 {
-        font-size: 14px;
+        font-size: 10px;
+    }
+    .headquarter p {
+        font-size: 13px;
     }
     .menu__contacts {
         width: 100%;
