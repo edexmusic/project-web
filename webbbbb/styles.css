@@ -1595,7 +1595,7 @@ footer ul li {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 420px){
     .container {
         width: 325px;
     }
@@ -1927,7 +1927,7 @@ footer ul li {
         max-width: 340px;
     }
     #blogs__section {
-        height: 240vh;
+        height: 260vh;
     }
     .footer__list {
         display: none;
@@ -1943,16 +1943,23 @@ footer ul li {
     }
     .ending {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .project .project__info {
         width: 100%;
     }
     .project li h2 {
-        width: 100%px;
+        width: 100%;
+    }
+    footer ul li {
+        margin-top: 25px;
+    }
+    .project {
+        line-height: 20px;
     }
     .contacts {
         width: 100%;
+        line-height: 10px;
     }
     footer {
         width: 100%;
