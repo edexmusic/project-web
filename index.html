@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORP.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="main">
+        <div class="navigation">
+            <div class="logo"><img src="img/Logo.png" alt="">
+            <a class="button" href="">Contact</a>
+            <a href="">Prevention</a>
+            <a href="#symptoms">Symptoms</a>
+            <a href="#covid">Contagion</a>
+            <a class="over" href="#whatcov">Overview</a>
+            </div>
+            
+        </div>
+    <div class="cov">
+<h2>COVID-19 ALERT</h2>
+<h3>Stay At Home Quarantine To Stop Corona Virus </h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eius.</p>
+<a href="">Let Us Help</a>
+
+    </div>
+    <div class="covimg">
+<img src="img/covid1.png" height="400px" width="560px" alt="">
+
+    </div>
+
+    </section>
+    <section id="whatcov">
+<div class="whatimg">
+<img src="img/covid2.png" height="400px" alt="">
+
+</div>
+<div class="covtext">
+<h2>What Is COVID-19</h2>
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestias, provident ipsum amet nemo veritatis! Minus adipisci architecto laudantium aperiam debitis, illum natus cupiditate sunt ducimus, non nulla, repudiandae qui harum reiciendis dolores! Vel ea eius consequuntur. Vitae tempora quisquam, voluptatibus amet sequi nihil nostrum exercitationem voluptas pariatur, earum deleniti. </P>
+<a href="">Learn More</a>
+</div>
+    </section>
+    <section id="covid">
+<div class="inf">
+<h2>Covid-19</h2>
+<h3>Contagion</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, totam est dolore eveniet porro autem!</p>
+</div>
+<section class="wins">        
+<div class="air">
+<img src="img/virus.png" height="240px" alt="">
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+<div class="human">
+    <img src="img/virus.png" height="240px" alt="">
+    <p>Lorem ipsum dolor sit amet.</p>
+</div>
+<div class="obj">
+    <img src="img/virus.png" height="240px" alt="">
+    <p>Lorem ipsum dolor sit amet.</p>
+</div>
+</section>
+    </section>
+<section id="symptoms">
+<div class="symptxt">
+<h2>Covid-19</h2>
+<h3>Symptoms</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, nobis.</p>
+</div>
+<div class="imgsymp">
+<img src="img/symptomps.png" height="500px" alt="">
+ 
+</div>
+</section>
+
+
+
+
+
+<script src="anim.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+    </script>
+</body>
+</html>   

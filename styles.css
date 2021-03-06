@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navigation a {
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    color: #11905B;
+    margin-top: 25px;
+    margin-right: 45px;
+}
+.navigation .button {
+    color: #FF383D;
+    background-color: white;
+    border: #FF383D;
+}
+.navigation .over {
+    color: #FF383D;
+}
+#main {
+    width: 80%;
+    margin: 0 140px;
+    height: 100vh;
+}
+.logo {
+   padding-top: 10px;
+}
+.cov {
+    float: left;
+   margin-top: 150px;
+    width: 500px;
+}
+.cov h2 {
+    color: #FF383D;
+}
+.cov h3 {
+    font-size: 36px;
+    color: #11905B;
+}
+.cov p {
+    line-height: 30px;
+}
+.cov a {
+    text-decoration: none;
+    background-color: #FF383D;
+    color: white;
+    padding: 15px 35px;
+    line-height: 50px;
+    border-radius: 90px;
+}
+.covimg {
+    float: right;
+    padding-top: 60px;
+}
+#whatcov {
+    width: 80%;
+    margin: 0 140px;
+    height: 100vh;
+}
+.covtext {
+    float: right;
+    width: 500px;
+    margin-top: 180px;
+}
+.covtext p {
+line-height: 25px;
+}
+.covtext h2 {
+    color: #FF383D;
+    line-height: 40px;
+}
+.covtext a {
+   background-color: #F8DFDF;
+   padding: 15px 35px;
+   line-height: 90px;
+   color: #FF383D;
+   text-decoration: none;
+   border-radius: 90px;
+}
+.whatimg {
+    float: left;
+    padding-top: 100px;
+}
+#covid {
+    width: 80%;
+    margin: 0 140px;
+    height: 100vh;
+    text-align: center;
+}
+.human {
+    height: 375px;
+    width: 300px;
+    background-color: pink;
+}
+.air {
+    height: 375px;
+    width: 300px;
+    background-color: pink;
+}
+.obj {
+    height: 375px;
+    width: 300px;
+    background-color: pink;
+}
+.wins {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.inf h2 {
+    color: #FF383D;
+}
+.inf h3 {
+    font-size: 36px;
+    color: #11905B;
+}
+.inf p {
+    line-height: 30px;
+} 
+.inf {
+    padding-top: 20px;
+}
+#symptoms {
+    width: 80%;
+    margin: 0 140px;
+    height: 100vh;
+    text-align: center;
+}
+.symptxt h2 {
+    color: #FF383D; 
+    padding-top: 20px;
+}
+.symptxt h3 {
+    font-size: 36px;
+    color: #11905B;
+}
+.symptxt p {
+    line-height: 20px;
+}
+.imgsymp {
+    justify-content: center;
+}
