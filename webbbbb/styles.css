@@ -1434,7 +1434,7 @@ footer ul li {
         font-size: 18px;
     }
     #intro__section {
-        height: 100vh;
+        height: 812px;
     }
     #intro__section .image img {
         height: 50%px;
@@ -1613,10 +1613,10 @@ footer ul li {
     }
     .blogs {
         flex-direction: column;
-        height: 225vh;
+        height: 1600px;
     }
     #about__section {
-        height: 125vh;
+        height: 900px;
     }
     .blogcard {
         width: 280px;
@@ -1880,7 +1880,7 @@ footer ul li {
         margin-bottom: 20px;
     }
     #works__section {
-        height: 125vh;
+        height: 950px;
     }
     .works__content {
         flex-direction: column;
@@ -1928,7 +1928,7 @@ footer ul li {
         max-width: 340px;
     }
     #blogs__section {
-        height: 250vh;
+        height: 1800px;
     }
     .footer__list {
         display: none;
@@ -1937,7 +1937,7 @@ footer ul li {
         height: 50vh;
     }
     #footer__section {
-        height: 65vh;
+        height: 527px;
     }
     .project .footer__form input {
         width: 200px;
