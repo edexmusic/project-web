@@ -1,3 +1,15 @@
+(function() {
+  const header = document.querySelector('.header');
+  window.onscroll = () => {
+      if (window.pageYOffset > 40) {
+          header.classList.add('header__moved')
+      } else
+      header.classList.remove('header__moved')
+  }
+}());
+
+
+
 var slideIndex = 1;
     showSlides(slideIndex);
     function plusSlides(n) {
@@ -25,12 +37,6 @@ var slideIndex = 1;
 
 
     
-(function() {
-    const header = document.querySelector('.header');
-    window.onscroll = () => {
-        if (window.pageYOffset > 40) {
-            header.classList.add('header__moved')
-        } else
-        header.classList.remove('header__moved')
-    }
-}());
+
+
+
