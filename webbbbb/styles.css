@@ -1799,7 +1799,13 @@ footer ul li {
         height: 30px;
     }
     #blogs2__section {
-        height: 470vh;
+        height: 480vh;
+    }
+    .blogs__title h1 {
+        width: 100%;
+    }
+    .blogs__title {
+        height: 40vh;
     }
     .image {
         height: 50%;
