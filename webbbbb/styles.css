@@ -1890,6 +1890,9 @@ footer {
     .blogcard h4 {
         font-size: 18px;
     }
+    .blogcard p {
+        font-size: 16px;
+    }
     .blogs__title h1 {
         width: 100%;
     }
