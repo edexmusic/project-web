@@ -10,6 +10,44 @@
 
 
 
+const hamburger = document.querySelector('#menu__toggle');
+
+hamburger.addEventListener('click', function() {
+    const body = document.body;
+    if (body.classList.contains('hide-scroll')) {
+        body.classList.remove('hide-scroll');
+    } else {
+        body.classList.add('hide-scroll');
+    }
+})
+
+
+
+
+var mobileMenuButton = document.querySelectorAll('menu__btn')
+var mobileMenuItems = document.querySelectorAll('menu__nav')
+
+
+// TOGGLE MOBILE MENU
+var mobileMenu = false
+
+if (mobileMenu === false) {
+
+  function showMobileMenu() {
+
+    mobileMenuButton.onclick(function() {
+      console.log("clicked");
+    })
+
+    mobileMenu = true
+  }
+
+}
+
+
+
+
+
 var slideIndex = 1;
     showSlides(slideIndex);
     function plusSlides(n) {
@@ -33,10 +71,6 @@ var slideIndex = 1;
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
     }
-
-
-
-    
 
 
 

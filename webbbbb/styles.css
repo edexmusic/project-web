@@ -8,7 +8,9 @@
     width: 1280px;
     margin: 0 auto;
 }
-
+.hide-scroll {
+    overflow: hidden;
+}
 body {
     background-color: #3A3A3A;
     font-family: 'Roboto';
@@ -303,6 +305,112 @@ h1 {
     opacity: 0.8;
 }
 /* aboutus section styles end */
+
+/* contacts section styles start */
+
+#contacts__section {
+    height: 120vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+.contacts__line {
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact1 {
+    text-align: center;
+}
+.contact1 h3 {
+    font-size: 28px;
+    color: white;
+    line-height: 50px;
+}
+.contact1 p {
+    color: #999999;
+}
+.contact2 {
+    text-align: center;
+}
+.contact2 h3 {
+    font-size: 28px;
+    color: white;
+    line-height: 50px;
+}
+.contact2 p {
+    color: #999999;
+}
+.contact3 {
+    text-align: center;
+}
+.contact3 h3 {
+    font-size: 28px;
+    color: white;
+    line-height: 50px;
+}
+.contact3 p {
+    color: #999999;
+}
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: transparent;
+    outline: none;
+}
+
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+
+  /* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #3A3A3A;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 20px;
+    margin: 8px 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid white ;
+    cursor: pointer;
+    width: 160px;
+    opacity: 0.9;
+}
+
+.contact__form p {
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.registerbtn:hover {
+    opacity:1;
+}
+
+  /* Add a blue text color to links */
+a {
+    color: #DB883A;
+}
+.google-maps {
+    right: 0;
+}
+
+/* contacts section styles end */
+
 
 
 /* services section styles start */
@@ -1203,7 +1311,7 @@ footer ul li {
         max-width: 600px;
     }
     #portfolio__section {
-        height: 265vh;
+        height: 440vh;
     }
     #blogs2__section {
         height: 220vh;
@@ -1214,7 +1322,7 @@ footer ul li {
         width: 800px;
     }
     #portfolio__section {
-        height: 280vh;
+        height: 440vh;
     }
     #blogs2__section {
         height: 280vh;
@@ -1224,6 +1332,69 @@ footer ul li {
     }
     .intro__content .learnmore {
         font-size: 24px;
+    }
+    .phone {
+        height: 75px ;
+        width: 160px;
+    }
+    .menu__contacts {
+        margin-top: 100px;
+    }
+    .menu__option .option {
+        font-size: 42px;
+        line-height: 78px;
+    }
+    .phone h5 {
+        font-size: 14px;
+    }
+    .email {
+        height: 75px ;
+        width: 160px;
+    }
+    .email h5 {
+        font-size: 14px;
+    }
+    .showroom {
+        height: 75px ;
+        width: 160px;
+    }
+    .showroom h5 {
+        font-size: 14px;
+    }
+    .menu__socials {
+        width: 275px;
+    }
+    .menu__socials p {
+        font-size: 18px;
+        width: 80%;
+    }
+    .menu__navigation {
+        margin-left: 0px;
+        height: 40vh;
+        margin-top: 100px;
+    }
+    .menu__contacts {
+        margin-top: 0;
+    }
+    .menu__contactsinfo {
+        width: 320px;
+        height: 300px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog__title h2 {
+        font-size: 42px;
+    }
+    .headquarter {
+        height: 75px ;
+        width: 160px;
+    }
+    .headquarter h5 {
+        font-size: 14px;
+    }
+    .menu__contacts {
+        width: 600px;
     }
     #testimonial__section {
         height: 25vh;
@@ -1466,15 +1637,13 @@ footer ul li {
     .menu__nav {
         height: 80vh;
     }
-    .menu__navigation {
-        width: 800px;
-    }
     .phone {
         height: 75px ;
         width: 160px;
     }
     .menu__contacts {
-        margin-top: 375px;
+        margin-top: 125px;
+        width: 80%;
     }
     .menu__option .option {
         font-size: 42px;
@@ -1498,7 +1667,7 @@ footer ul li {
         font-size: 16px;
     }
     .menu__socials {
-        width: 350px;
+        width: 30%;
     }
     .menu__socials p {
         font-size: 20px;
@@ -1506,6 +1675,7 @@ footer ul li {
     }
     .menu__navigation {
         margin-left: 0px;
+        width: 100%;
     }
     .menu__contactsinfo {
         width: 420px;
@@ -1522,7 +1692,7 @@ footer ul li {
         font-size: 16px;
     }
     .menu__contacts {
-        width: 800px;
+        width: 100%;
     }
     .line {
         margin-top: 120px;
@@ -1534,9 +1704,29 @@ footer ul li {
         align-items: center;
     }
 }
+@media screen and (max-width: 1000px){
+    .about__content {
+        width: 70%;
+    }
+    .about__content p {
+        width: 100%;
+    }
+    .about__content h2 {
+        width: 100%;
+    }
+    .works__info {
+        width: 80%;
+    }
+    .works__info p {
+        width: 100%;
+    }
+    .works__info h2 {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 850px){
     #blogs2__section {
-        height: 250vh;
+        height: 220vh;
     }
     .container {
         width: 80%;
@@ -1551,7 +1741,6 @@ footer {
 #footer__section {
     height: 40vh;
 }
-}
 @media screen and (max-width: 800px){
     .container {
         width: 80%  ;
@@ -1560,7 +1749,7 @@ footer {
         height: 360vh;
     }
     #blogs2__section {
-        height: 240vh;
+        height: 210vh;
     }
     .intro {
         height: 100vh;
@@ -1827,6 +2016,9 @@ footer {
     #blogs2__section {
         height: 440vh;
     }
+    .portfolio__options {
+        width: 80%;
+    }
     .footer__list {
         display: none;
     }
@@ -1875,6 +2067,20 @@ footer {
     }
     .endline {
         margin-top: 80px;
+    }
+    .portfolio__box {
+        width: 350px;
+        height: 590px;
+    }
+    .portfolio__box img {
+        width: 350px;
+        height: 570px;
+    }
+    .verticaltext {
+        margin-right: -60px;
+    }
+    #portfolio__section {
+        height: 380vh;
     }
 }
 @media screen and (max-width: 450px){
@@ -1952,10 +2158,11 @@ footer {
     }
     .phone {
         height: 55px ;
-        width: 100px;
+        width: 130px;
     }
     .menu__contacts {
         margin-top: 0px;
+        flex-direction: column-reverse;
     }
     .menu__option .option {
         font-size: 34px;
@@ -1969,7 +2176,7 @@ footer {
     }
     .email {
         height: 55px ;
-        width: 100px;
+        width: 130px;
     }
     .email h5 {
         font-size: 10px;
@@ -1991,7 +2198,7 @@ footer {
     }
     .showroom {
         height: 55px ;
-        width: 100px;
+        width: 130px;
         margin-top: 0px;
     }
     .showroom h5 {
@@ -2001,7 +2208,7 @@ footer {
         font-size: 12px;
     }
     .menu__socials {
-        width: 40%;
+        width: 100%;
         padding: 0;
     }
     .menu__socials p {
@@ -2012,12 +2219,11 @@ footer {
         margin-left: 0px;
     }
     .menu__contactsinfo {
-        width: 230px;
-        padding-top: 60px;
+        width: 100%;
         height: 200px;
         margin: 0;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        justify-content: space-between;
+        align-items: flex-end;
     }
     .blog__title h2 {
         font-size: 42px;
@@ -2026,7 +2232,7 @@ footer {
         height: 100vh;
     }
     .menu__socials {
-        margin-top: 135px;
+        margin-top: 45px;
     }
     .menu__socials a {
         width: 100%;
@@ -2042,7 +2248,7 @@ footer {
     }
     .headquarter {
         height: 55px ;
-        width: 100px;
+        width: 130px;
         margin-top: 0px;
     }
     .headquarter h5 {
@@ -2277,6 +2483,24 @@ footer {
     .endline {
         margin-top: 80px;
     }
+    .portfolio__box {
+        width: 250px;
+        height: 420px;
+    }
+    .portfolio__box img {
+        width: 250px;
+        height: 400px;
+    }
+    .verticaltext {
+        margin-right: -60px;
+    }
+    #portfolio__section {
+        height: 300vh;
+    }
+    .box__inf {
+        width: 200px;
+    }
+
 }
     /*1450px end*/
 
